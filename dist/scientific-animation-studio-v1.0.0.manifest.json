@@ -1,0 +1,167 @@
+{
+  "archive": "scientific-animation-studio-v1.0.0.zip",
+  "bytes": 892192,
+  "sha256": "36ea9914d78d8433018da6c14903ff25a4aeafa6351d1e8de16f906f9ba65289",
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 81,
+      "sha256": "3439e7b3ebfa7ad77d3664924c705fd4c9668eb86a499570873234e7b4bcca3e"
+    },
+    {
+      "path": "agents/openai.yaml",
+      "bytes": 329,
+      "sha256": "0353a7021160b726b1a17475ea5bb354f98bb92dd192f2be7338218bb9c632fe"
+    },
+    {
+      "path": "assets/player.js",
+      "bytes": 11923,
+      "sha256": "bf40b5b5af6c1be8cd9d672bf4daa50783bbc112e840597967380470ddf510e8"
+    },
+    {
+      "path": "assets/template.html",
+      "bytes": 3729,
+      "sha256": "75b535e17ea258440fdc92731fb25ec4959cad4f483e04ee323db9f46094181f"
+    },
+    {
+      "path": "examples/build_abstract_examples.py",
+      "bytes": 6418,
+      "sha256": "0d213900e879f189fccb81a1dd7a5cfdbb52a9cf874c648cfecbd85fc1394872"
+    },
+    {
+      "path": "examples/heat-pipe/animation.html",
+      "bytes": 85779,
+      "sha256": "19286efcdd896990a87dd9b8bf44db4bbc5542ac6570c2bb5b2b79d4d1a5434d"
+    },
+    {
+      "path": "examples/heat-pipe/animation.json",
+      "bytes": 133469,
+      "sha256": "4b39b632b34fb0514ef05fc95a05fcee02f09324b4e0b99d3fd65e4ea33552f1"
+    },
+    {
+      "path": "examples/heat-pipe/animation.mp4",
+      "bytes": 415086,
+      "sha256": "904cedf3da0e1a695ea70e9291fe03a3f8b91ff82c0238d5b585de6244e157c0"
+    },
+    {
+      "path": "examples/heat-pipe/build_scene.py",
+      "bytes": 7160,
+      "sha256": "fe0c79388048275dd1c1193bab8758f778cc192a8156bf28f54006fffe420f5d"
+    },
+    {
+      "path": "examples/heat-pipe/preview.png",
+      "bytes": 412268,
+      "sha256": "b5d939a75157a2b2ee2aff50048b69e1634d68393620e98a3529fb0c7a702790"
+    },
+    {
+      "path": "examples/heat-pipe/storyboard.md",
+      "bytes": 1509,
+      "sha256": "2f76162320fa0e3a6d2c0ae66155fb0570f83ed0c6822c857a9d227f8b757a08"
+    },
+    {
+      "path": "examples/reversible-binding/animation.html",
+      "bytes": 19461,
+      "sha256": "3163cc41c01f119dbcf484df6578f8683dba86ae27f207cb2391470a642ccfb6"
+    },
+    {
+      "path": "examples/reversible-binding/animation.json",
+      "bytes": 7603,
+      "sha256": "eefb9c84a3fe4bd234b41cf6297a91a6122c7a1b48474ee26d4d2f5cf215fdf8"
+    },
+    {
+      "path": "examples/reversible-binding/storyboard.md",
+      "bytes": 536,
+      "sha256": "2d715a3d414df688cdb3a95d4c3deb731f3647813acd79cf31845a71014055f7"
+    },
+    {
+      "path": "examples/state-transfer/animation.html",
+      "bytes": 20649,
+      "sha256": "c9c0a17ecbdb9d9ad6c59f1f9f6d2bc2570aa417b1332b0fed467d67648a015f"
+    },
+    {
+      "path": "examples/state-transfer/animation.json",
+      "bytes": 9817,
+      "sha256": "a51497223daeabca525a85bb139953e35cdbbd809b09a1d670b89e453646d41a"
+    },
+    {
+      "path": "examples/state-transfer/storyboard.md",
+      "bytes": 447,
+      "sha256": "3c4910bc8e184a86ef02adf7d4354b83ad432d05383ee796f09e02a1fa9c1823"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1073,
+      "sha256": "b70498242df1f5552f3d70e114fa2bb34e3acc885640d0e632446765675a2c8b"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4649,
+      "sha256": "cbbdfa7ce56d91440c7f3a050361f1db4685800d0b9ae55456dfaa90023f785e"
+    },
+    {
+      "path": "references/mechanism-patterns.md",
+      "bytes": 3487,
+      "sha256": "f58597c610e64f33c0ef19108ae3837a625b841dee100276872b71799f98b09c"
+    },
+    {
+      "path": "references/production.md",
+      "bytes": 8396,
+      "sha256": "f32caa5d363eb09f34ba14cc106b85f649a28cd1666c91b711037dd92ae81741"
+    },
+    {
+      "path": "references/visual-design.md",
+      "bytes": 3940,
+      "sha256": "c43f4e1aa5cfbc18c273c6dbc33c3ae565408699d4bb0d167a1946ea9968acab"
+    },
+    {
+      "path": "scripts/audit_animation.mjs",
+      "bytes": 4825,
+      "sha256": "c3164b0ba2bdae943ea30d1412483ac4af4cdbe8c47ca7bcf7ee29cdd44d4a73"
+    },
+    {
+      "path": "scripts/build_animation.py",
+      "bytes": 9815,
+      "sha256": "dc09b29d83f628430dabad629633e55c5a8e49ae8d4b6910162dce8c76919193"
+    },
+    {
+      "path": "scripts/package_skill.py",
+      "bytes": 2272,
+      "sha256": "7d7fc3e3a67b6865e40bc0931e3e697415256fa8348c30b46dacd7400e26c5b1"
+    },
+    {
+      "path": "scripts/render_mp4.mjs",
+      "bytes": 9715,
+      "sha256": "bf68fa9c10e5c13b173996c6fc0b0856c0e24f49b91d11430de08ffac9a364d4"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 9432,
+      "sha256": "58b30af2d03ab8987e009a97017b4bcc4bf230816fb15d7dbd99cdb50ff9a856"
+    },
+    {
+      "path": "tests/test_builder.py",
+      "bytes": 5267,
+      "sha256": "13fe11c0942c2c07af40ee1fed6d9271ca9c167062696f516604b90eef0e1a8a"
+    },
+    {
+      "path": "tests/test_package.py",
+      "bytes": 1888,
+      "sha256": "10f91ed82e4da96ab3a01105a2fd58279dd2776c92ab145461c828d18b2e7e1e"
+    },
+    {
+      "path": "tests/verify_browser.mjs",
+      "bytes": 5109,
+      "sha256": "2a0f71d83e53f4c217fb4769327773013281adb56b80b9962f3ad39f2889d83e"
+    },
+    {
+      "path": "tests/verify_layout.mjs",
+      "bytes": 3022,
+      "sha256": "414fa25dd49c3782ed5f3939c5495bd7c1be805d99725124ae36da4fa9925268"
+    },
+    {
+      "path": "VERSION",
+      "bytes": 6,
+      "sha256": "59854984853104df5c353e2f681a15fc7924742f9a2e468c29af248dce45ce03"
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "原理机制动画工坊"
+  short_description: "按机制设计精细矢量动画，检查边缘与运动交叠，交付交互 HTML 或 MP4"
+  default_prompt: "使用 $scientific-animation-studio 根据我的资料制作原理动画，先让我选择 HTML 内置动画、MP4 视频或两者都要。"

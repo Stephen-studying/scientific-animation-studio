@@ -1,0 +1,490 @@
+{
+  "version": 1,
+  "title": "状态如何发生转换",
+  "description": "抽象规则：接收触发信号后进入处理中；完成后进入结束态。",
+  "width": 1280,
+  "height": 720,
+  "duration": 10,
+  "background": "#fafbf8",
+  "evidence": {
+    "label": "抽象教学模型 · 示意规则在分镜中定义 · 非数值仿真",
+    "sources": [],
+    "assumptions": [
+      "仅演示分镜定义的关系，应用到真实系统时须以资料替换对象、条件和路径。"
+    ]
+  },
+  "elements": [
+    {
+      "id": "title",
+      "type": "text",
+      "text": "状态如何发生转换",
+      "attrs": {
+        "x": 50,
+        "y": 82,
+        "font-size": 38,
+        "fill": "#243f46",
+        "text-anchor": "start"
+      }
+    },
+    {
+      "id": "subtitle",
+      "type": "text",
+      "text": "抽象规则：接收触发信号后进入处理中；完成后进入结束态。",
+      "attrs": {
+        "x": 50,
+        "y": 132,
+        "font-size": 21,
+        "fill": "#6a7e81",
+        "text-anchor": "start"
+      }
+    },
+    {
+      "id": "rule",
+      "type": "path",
+      "attrs": {
+        "d": "M48 155H1232",
+        "fill": "none",
+        "stroke": "#d9e2e1",
+        "stroke-width": 1,
+        "stroke-linecap": "round",
+        "stroke-linejoin": "round"
+      }
+    },
+    {
+      "id": "state-0",
+      "type": "circle",
+      "attrs": {
+        "cx": 270,
+        "cy": 350,
+        "r": 74,
+        "fill": "#e8efec"
+      }
+    },
+    {
+      "id": "active-0",
+      "type": "circle",
+      "attrs": {
+        "cx": 270,
+        "cy": 350,
+        "r": 69,
+        "fill": "#d6e7e9"
+      },
+      "tracks": [
+        {
+          "attribute": "opacity",
+          "keyframes": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              4.9,
+              0
+            ],
+            [
+              5.1,
+              0
+            ],
+            [
+              9,
+              0
+            ],
+            [
+              10,
+              0
+            ]
+          ],
+          "easing": "smooth"
+        }
+      ]
+    },
+    {
+      "id": "state-label-0",
+      "type": "text",
+      "text": "等待",
+      "attrs": {
+        "x": 270,
+        "y": 335,
+        "font-size": 26,
+        "fill": "#243f46",
+        "text-anchor": "middle"
+      }
+    },
+    {
+      "id": "state-note-0",
+      "type": "text",
+      "text": "尚未接收到触发",
+      "attrs": {
+        "x": 270,
+        "y": 481,
+        "font-size": 18,
+        "fill": "#6a7e81",
+        "text-anchor": "middle"
+      }
+    },
+    {
+      "id": "state-number-0",
+      "type": "text",
+      "text": "01",
+      "attrs": {
+        "x": 270,
+        "y": 238,
+        "font-size": 18,
+        "fill": "#6a7e81",
+        "text-anchor": "middle"
+      }
+    },
+    {
+      "id": "state-1",
+      "type": "circle",
+      "attrs": {
+        "cx": 640,
+        "cy": 350,
+        "r": 74,
+        "fill": "#e8efec"
+      }
+    },
+    {
+      "id": "active-1",
+      "type": "circle",
+      "attrs": {
+        "cx": 640,
+        "cy": 350,
+        "r": 69,
+        "fill": "#d6e7e9"
+      },
+      "tracks": [
+        {
+          "attribute": "opacity",
+          "keyframes": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              4.9,
+              1
+            ],
+            [
+              5.1,
+              1
+            ],
+            [
+              9,
+              0
+            ],
+            [
+              10,
+              0
+            ]
+          ],
+          "easing": "smooth"
+        }
+      ]
+    },
+    {
+      "id": "state-label-1",
+      "type": "text",
+      "text": "处理",
+      "attrs": {
+        "x": 640,
+        "y": 335,
+        "font-size": 26,
+        "fill": "#243f46",
+        "text-anchor": "middle"
+      }
+    },
+    {
+      "id": "state-note-1",
+      "type": "text",
+      "text": "执行当前任务",
+      "attrs": {
+        "x": 640,
+        "y": 481,
+        "font-size": 18,
+        "fill": "#6a7e81",
+        "text-anchor": "middle"
+      }
+    },
+    {
+      "id": "state-number-1",
+      "type": "text",
+      "text": "02",
+      "attrs": {
+        "x": 640,
+        "y": 238,
+        "font-size": 18,
+        "fill": "#6a7e81",
+        "text-anchor": "middle"
+      }
+    },
+    {
+      "id": "state-2",
+      "type": "circle",
+      "attrs": {
+        "cx": 1010,
+        "cy": 350,
+        "r": 74,
+        "fill": "#e8efec"
+      }
+    },
+    {
+      "id": "active-2",
+      "type": "circle",
+      "attrs": {
+        "cx": 1010,
+        "cy": 350,
+        "r": 69,
+        "fill": "#d6e7e9"
+      },
+      "tracks": [
+        {
+          "attribute": "opacity",
+          "keyframes": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              4.9,
+              0
+            ],
+            [
+              5.1,
+              0
+            ],
+            [
+              9,
+              1
+            ],
+            [
+              10,
+              1
+            ]
+          ],
+          "easing": "smooth"
+        }
+      ]
+    },
+    {
+      "id": "state-label-2",
+      "type": "text",
+      "text": "完成",
+      "attrs": {
+        "x": 1010,
+        "y": 335,
+        "font-size": 26,
+        "fill": "#243f46",
+        "text-anchor": "middle"
+      }
+    },
+    {
+      "id": "state-note-2",
+      "type": "text",
+      "text": "到达结束状态",
+      "attrs": {
+        "x": 1010,
+        "y": 481,
+        "font-size": 18,
+        "fill": "#6a7e81",
+        "text-anchor": "middle"
+      }
+    },
+    {
+      "id": "state-number-2",
+      "type": "text",
+      "text": "03",
+      "attrs": {
+        "x": 1010,
+        "y": 238,
+        "font-size": 18,
+        "fill": "#6a7e81",
+        "text-anchor": "middle"
+      }
+    },
+    {
+      "id": "link-1",
+      "type": "path",
+      "attrs": {
+        "d": "M365 430H534 M525 423L534 430L525 437",
+        "fill": "none",
+        "stroke": "#428eaa",
+        "stroke-width": 2,
+        "stroke-linecap": "round",
+        "stroke-linejoin": "round"
+      }
+    },
+    {
+      "id": "link-2",
+      "type": "path",
+      "attrs": {
+        "d": "M735 430H904 M895 423L904 430L895 437",
+        "fill": "none",
+        "stroke": "#428eaa",
+        "stroke-width": 2,
+        "stroke-linecap": "round",
+        "stroke-linejoin": "round"
+      }
+    },
+    {
+      "id": "trigger-label",
+      "type": "text",
+      "text": "触发",
+      "attrs": {
+        "x": 449,
+        "y": 314,
+        "font-size": 18,
+        "fill": "#6a7e81",
+        "text-anchor": "middle"
+      }
+    },
+    {
+      "id": "done-label",
+      "type": "text",
+      "text": "完成",
+      "attrs": {
+        "x": 819,
+        "y": 314,
+        "font-size": 18,
+        "fill": "#6a7e81",
+        "text-anchor": "middle"
+      }
+    },
+    {
+      "id": "token-one",
+      "type": "circle",
+      "attrs": {
+        "cx": 0,
+        "cy": 0,
+        "r": 10,
+        "fill": "#c97748"
+      },
+      "motion": {
+        "path": "M270 380L640 380",
+        "start": 1,
+        "end": 5,
+        "cycles": 1,
+        "loop": false
+      }
+    },
+    {
+      "id": "token-two",
+      "type": "circle",
+      "attrs": {
+        "cx": 0,
+        "cy": 0,
+        "r": 10,
+        "fill": "#c97748"
+      },
+      "motion": {
+        "path": "M640 380L1010 380",
+        "start": 5,
+        "end": 9,
+        "cycles": 1,
+        "loop": false
+      }
+    },
+    {
+      "id": "token-initial",
+      "type": "circle",
+      "attrs": {
+        "cx": 270,
+        "cy": 380,
+        "r": 10,
+        "fill": "#c97748"
+      },
+      "tracks": [
+        {
+          "attribute": "opacity",
+          "keyframes": [
+            [
+              0,
+              1
+            ],
+            [
+              0.99,
+              1
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              10,
+              0
+            ]
+          ],
+          "easing": "step"
+        }
+      ]
+    },
+    {
+      "id": "token-final",
+      "type": "circle",
+      "attrs": {
+        "cx": 1010,
+        "cy": 380,
+        "r": 10,
+        "fill": "#c97748"
+      },
+      "tracks": [
+        {
+          "attribute": "opacity",
+          "keyframes": [
+            [
+              0,
+              0
+            ],
+            [
+              8.99,
+              0
+            ],
+            [
+              9,
+              1
+            ],
+            [
+              10,
+              1
+            ]
+          ],
+          "easing": "step"
+        }
+      ]
+    }
+  ],
+  "cues": [
+    {
+      "start": 0,
+      "end": 1,
+      "text": "等待态保持稳定，直到触发条件满足。"
+    },
+    {
+      "start": 1,
+      "end": 5,
+      "text": "触发信号到达，状态从“等待”转换到“处理”。"
+    },
+    {
+      "start": 5,
+      "end": 9,
+      "text": "任务完成后，状态继续转换到“完成”。"
+    },
+    {
+      "start": 9,
+      "end": 10,
+      "text": "到达结束态；同一个状态标记不会复制成多个对象。"
+    }
+  ]
+}
